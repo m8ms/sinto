@@ -1,0 +1,28 @@
+body {
+  padding: 1.5rem;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+a {
+  color: #00b7ff;
+}
+#adminPageHeader {
+  border-bottom: 1px dotted #999;
+  margin-bottom: 1.5rem;
+}
+#adminPageHeader nav,
+#adminPageHeader h4 {
+  display: inline-block;
+}
+#adminPageHeader h4 {
+  border-right: 1px dotted #999;
+  margin-right: 0.75rem;
+  padding-right: 0.75rem;
+}
+#adminPageHeader ul {
+  padding: 0;
+}
+#adminPageHeader ul li {
+  display: inline-block;
+  border-bottom: 3px solid #db3;
+}

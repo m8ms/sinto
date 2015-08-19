@@ -1,0 +1,12 @@
+﻿
+create table sinto_user(
+	first_name varchar(50) not null,
+	last_name varchar(50) not null,
+	email varchar(50) not null,
+	password_hash chkpass,
+	is_admin boolean not null,
+	is_active boolean not null,
+	is_employee boolean not null,
+	employed_since date,
+	employed_until date
+)
