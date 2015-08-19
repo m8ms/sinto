@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "sintouser",
+    "password": "1234",
+    "database": "sinto",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "setmeup",
+    "password": null,
+    "database": "sintouser",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "setmeup",
+    "password": null,
+    "database": "sintotest",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
