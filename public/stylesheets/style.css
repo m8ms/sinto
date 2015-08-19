@@ -7,22 +7,26 @@ a {
   color: #00b7ff;
 }
 #adminPageHeader {
-  border-bottom: 1px dotted #999;
   margin-bottom: 1.5rem;
+/*ul
+    padding: 0
+    li
+      display: inline-block
+      border-bottom: 3px solid #db3*/
 }
 #adminPageHeader nav,
-#adminPageHeader h4 {
+#adminPageHeader h2 {
   display: inline-block;
+  vertical-align: middle;
 }
-#adminPageHeader h4 {
-  border-right: 1px dotted #999;
+#adminPageHeader nav {
+  margin-top: 12px;
+}
+#adminPageHeader h2 {
+  border-right: 3px solid #db3;
   margin-right: 0.75rem;
   padding-right: 0.75rem;
 }
-#adminPageHeader ul {
-  padding: 0;
-}
-#adminPageHeader ul li {
+#adminPageHeader .dropdown {
   display: inline-block;
-  border-bottom: 3px solid #db3;
 }

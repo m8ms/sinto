@@ -1,16 +1,22 @@
 <header id="adminPageHeader">
-    <h4>sadmin</h4>
+    <h2>sadmin</h2>
     <nav>
-        <ul>
-            <li>
-                Users
-            </li>
-            <li>
-                Groups
-            </li>
-            <li>
-                Year setup
-            </li>
-        </ul>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="menu_users" data-toggle="dropdown">Users
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu_users">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="/admin/users">List users</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="/admin/users/add">Add user</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="menu_projects" data-toggle="dropdown">
+                Projects
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu_projects">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">List projects</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Add project</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
