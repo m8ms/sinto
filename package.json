@@ -24,7 +24,9 @@
     "sequelize": "~3.5.1",
     "sequelize-cli": "^1.7.4",
     "serve-favicon": "~2.2.1",
-    "stylus": "0.42.3"
+    "stylus": "0.42.3",
+    "connect-flash": "~0.1.1",
+    "express-session": "~1.11.3"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
